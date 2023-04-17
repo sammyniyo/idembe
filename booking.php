@@ -1,16 +1,11 @@
 <?php
+include('db.php');
 if (!isset($_GET['id'])) {
     echo "Error: Room ID not specified.";
     exit();
 }
 
 $id = $_GET['id'];
-// Code for fetching room details from database
-$conn = mysqli_connect("localhost","root","","idembe") or die(mysql_error());
-
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
 
 $sql = "SELECT * FROM rooms WHERE id = ?";
 $stmt = $conn->prepare($sql);

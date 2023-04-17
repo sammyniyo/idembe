@@ -162,7 +162,7 @@ $result = $conn->query($sql);
       <?php
         }
       } else {
-        echo "No food available";
+        echo "No food menu available!";
       }
       $conn->close();
       ?>
