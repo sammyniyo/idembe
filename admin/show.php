@@ -1,6 +1,12 @@
 <html>
 	<head>
-		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8">
+	<meta content="IDEMBE Hotel" name="description" />
+	<meta content="Discover the beauty of Rwanda at Idembe, a premier hotel that offers unparalleled comfort and convenience. Our modern and well-appointed rooms, stunning views of the surrounding landscapes, and exceptional service make us the perfect choice for business and leisure travelers alike. 
+    Experience the best of Rwanda with Idembe - book your stay today!"
+		name="keywords" />
+	<meta content="Samuel NIYOMUHOZA-sammuhoza.com" name="author" />
 		<title>IDEMBE- Customer Info</title>
 		
 		<style>

@@ -12,7 +12,12 @@ ob_start();
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SUNRISE HOTEL</title>
+    <title>Idembe | Administrator</title>
+    <meta content="IDEMBE Hotel" name="description" />
+	<meta content="Discover the beauty of Rwanda at Idembe, a premier hotel that offers unparalleled comfort and convenience. Our modern and well-appointed rooms, stunning views of the surrounding landscapes, and exceptional service make us the perfect choice for business and leisure travelers alike. 
+    Experience the best of Rwanda with Idembe - book your stay today!"
+		name="keywords" />
+	<meta content="Samuel NIYOMUHOZA-sammuhoza.com" name="author" />
 	<!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FontAwesome Styles-->
@@ -33,7 +38,7 @@ ob_start();
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="home.php">MAIN MENU </a>
+                <a class="navbar-brand" href="home.php">ADMIN</a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
@@ -44,8 +49,6 @@ ob_start();
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <li><a href="usersetting.php"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
                         <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
@@ -63,12 +66,32 @@ ob_start();
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a class="active-menu" href="settings.php"><i class="fa fa-dashboard"></i>User Dashboard</a>
+                        <a href="home.php"> Status</a>
                     </li>
-					
-					
+                    <li>
+                        <a href="add-room.php"> Add Rooms</a>
+                    </li>
+                    <li>
+                        <a href="manage-room.php"> Manage Rooms</a>
+                    </li>
+                    <li>
+                        <a href="add-food.php"> Add Food</a>
+                    </li>
+                    <li>
+                        <a href="manage-food.php"> Manage Food</a>
+                    </li>
+					<li>
+                        <a href="room-booking.php"> Room Booking</a>
+                    </li>
+                    <li>
+                        <a href="logout.php"> Logout</a>
+                    </li>
+                   
+
 
                     
+					</ul>
+
             </div>
 
         </nav>
@@ -88,7 +111,7 @@ ob_start();
             <?php
 						include ('db.php');
 						$sql = "SELECT * FROM `login`";
-						$re = mysqli_query($con,$sql)
+						$re = mysqli_query($conn,$sql)
 				?>
                 
             <div class="row">
@@ -200,7 +223,7 @@ ob_start();
 							$newps = $_POST['newps'];
 							
 							$newsql ="Insert into login (usname,pass) values ('$newus','$newps')";
-							if(mysqli_query($con,$newsql))
+							if(mysqli_query($conn,$newsql))
 							{
 							echo' <script language="javascript" type="text/javascript"> alert("User name and password Added") </script>';
 							
@@ -255,7 +278,7 @@ ob_start();
 					$passwr = $_POST['pasd'];
 					
 					$upsql = "UPDATE `login` SET `usname`='$usname',`pass`='$passwr' WHERE id = '$id'";
-					if(mysqli_query($con,$upsql))
+					if(mysqli_query($conn,$upsql))
 					{
 					echo' <script language="javascript" type="text/javascript"> alert("User name and password update") </script>';
 					

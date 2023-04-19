@@ -15,6 +15,11 @@ if(!isset($_SESSION["user"]))
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Idembe | Administrator</title>
+    <meta content="IDEMBE Hotel" name="description" />
+	<meta content="Discover the beauty of Rwanda at Idembe, a premier hotel that offers unparalleled comfort and convenience. Our modern and well-appointed rooms, stunning views of the surrounding landscapes, and exceptional service make us the perfect choice for business and leisure travelers alike. 
+    Experience the best of Rwanda with Idembe - book your stay today!"
+		name="keywords" />
+	<meta content="Samuel NIYOMUHOZA-sammuhoza.com" name="author" />
     <!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FontAwesome Styles-->
@@ -47,8 +52,6 @@ if(!isset($_SESSION["user"]))
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <li><a href="usersetting.php"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
                         <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>

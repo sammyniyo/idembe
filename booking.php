@@ -25,12 +25,6 @@ if (isset($_POST['sub'])) {
     $children = $_POST['children'];
     $room = $_POST['room'];
     $request = $_POST['request'];
-
-    // Database connection
-    $conn = mysqli_connect("localhost", "root", "", "idembe");
-    if (!$conn) {
-        echo '<script>alert("Error: Could not connect to database.")</script>';
-    } else {
         // Check if room is available for the requested dates
         $sql_check = "SELECT * FROM reservations WHERE room = '$room' AND checkin <= '$checkout' AND checkout >= '$checkin'";
         $result_check = mysqli_query($conn, $sql_check);
@@ -48,7 +42,6 @@ if (isset($_POST['sub'])) {
                 echo '<script>alert("Error: Could not add reservation to database.")</script>';
             }
         }
-    }
 }
 
 ?>
@@ -59,8 +52,11 @@ if (isset($_POST['sub'])) {
     <meta charset="utf-8">
     <title>Booking | IDEMBE</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="IDEMBE Hotel" name="description" />
+	<meta content="Discover the beauty of Rwanda at Idembe, a premier hotel that offers unparalleled comfort and convenience. Our modern and well-appointed rooms, stunning views of the surrounding landscapes, and exceptional service make us the perfect choice for business and leisure travelers alike. 
+    Experience the best of Rwanda with Idembe - book your stay today!"
+		name="keywords" />
+	<meta content="Samuel NIYOMUHOZA-sammuhoza.com" name="author" />
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -237,7 +233,7 @@ if (isset($_POST['sub'])) {
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title text-center text-primary text-uppercase">Room Booking</h6>
-                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">Luxury Room</span></h1>
+                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase"><?php echo $row['name']; ?></span></h1>
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
