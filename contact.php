@@ -1,3 +1,41 @@
+<?php
+include('db.php');
+if (isset($_POST['submit'])) {
+
+    // Get the form data
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+
+    // Set the recipient email address
+    $to = 'samshakul@gmail.com';
+
+    // Set the email headers
+    $headers = "From: " . $name . " <" . $email . ">\r\n";
+    $headers .= "Reply-To: " . $email . "\r\n";
+    $headers .= "Content-Type: text/html\r\n";
+
+    // Build the email message
+    $email_body = "<h2>Contact Form Submission</h2>";
+    $email_body .= "<p><strong>Name:</strong> " . $name . "</p>";
+    $email_body .= "<p><strong>Email:</strong> " . $email . "</p>";
+    $email_body .= "<p><strong>Subject:</strong> " . $subject . "</p>";
+    $email_body .= "<p><strong>Message:</strong></p><p>" . $message . "</p>";
+
+    // Send the email
+    if (mail($to, $subject, $email_body, $headers)) {
+        // If the email is sent successfully, redirect to a thank you page
+        header('Location: thank-you.php');
+        exit;
+    } else {
+        // If the email is not sent, display an error message
+        $error_message = "Sorry, something went wrong. Please try again later.";
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,6 +48,11 @@
     Experience the best of Rwanda with Idembe - book your stay today!"
 		name="keywords" />
 	<meta content="Samuel NIYOMUHOZA-sammuhoza.com" name="author" />
+    <meta content="Samuel NIYOMUHOZA-sammuhoza.com" name="author" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -145,34 +188,34 @@
                     </div>
                     <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <form>
+                        <form method="post" action="">
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                            <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 150px" required></textarea>
                                             <label for="message">Message</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                        <button class="btn btn-primary w-100 py-3" type="submit" name="submit">Send Message</button>
                                     </div>
                                 </div>
                             </form>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Success | IDEMBE</title>
+    <title>Thank you ! | IDEMBE</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="IDEMBE Hotel" name="description" />
 	<meta content="Discover the beauty of Rwanda at Idembe, a premier hotel that offers unparalleled comfort and convenience. Our modern and well-appointed rooms, stunning views of the surrounding landscapes, and exceptional service make us the perfect choice for business and leisure travelers alike. 
@@ -136,7 +136,7 @@
                                 </div>
                             </div>
                             <h5 class="mb-3">Thanks for Booking!</h5>
-                            <p class="text-body mb-0">Thank you for booking a room! we'll contact you via email or phone very soon.</p>
+                            <p class="text-body mb-0">Thank you for contacting us! we'll contact you via email or phone very soon.</p>
                         </a>
                     </div>
                 </div>

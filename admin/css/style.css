@@ -106,7 +106,7 @@ p {
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #ea4c88;
+  background-color: #A38663;
   color: #eee;
   font-weight: bold;
   margin-bottom: 2em;
@@ -115,7 +115,8 @@ p {
 }
 
 #login form input[type="submit"]:hover {
-  background-color: #d44179;
+  background-color: #A9907E;
+  cursor: pointer;
 }
 
 #login > p {
