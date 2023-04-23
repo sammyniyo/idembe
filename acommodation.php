@@ -75,7 +75,7 @@
                                 <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="me-3" href="https://www.instagram.com/idembeheritage/"><i class="fab fa-instagram"></i></a>
                                 <a class="" href=""><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
