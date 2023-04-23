@@ -178,7 +178,7 @@ if (isset($_POST['submit'])) {
                             </div>
                             <div class="col-md-4">
                                 <h6 class="section-title text-start text-primary text-uppercase">Address</h6>
-                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Kk 502 St, Kigali,Rwanda.</p>
+                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Kk 502 St, Muhanga,Rwanda.</p>
                             </div>
                         </div>
                     </div>

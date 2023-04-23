@@ -192,7 +192,7 @@
                     </div>
                     <div class="col-lg-6">
                         <h3 class="mb-4">MARKET Tour</span></h3>
-                        <p>IA market tour is a guided visit to a local market, often led by a knowledgeable guide who can help visitors navigate the bustling stalls and understand the local products and customs. During a market tour, visitors can explore a variety of vendors selling fresh produce, meats, fish, spices, handicrafts, and other items unique to the local area. They may also have the opportunity to sample local foods and drinks, learn about traditional cooking techniques, and interact with local vendors and artisans. Market tours can be a great way to experience the sights, 
+                        <p>Market tour is a guided visit to a local market, often led by a knowledgeable guide who can help visitors navigate the bustling stalls and understand the local products and customs. During a market tour, visitors can explore a variety of vendors selling fresh produce, meats, fish, spices, handicrafts, and other items unique to the local area. They may also have the opportunity to sample local foods and drinks, learn about traditional cooking techniques, and interact with local vendors and artisans. Market tours can be a great way to experience the sights, 
                             sounds, and flavors of a new destination and to gain a deeper appreciation for the local culture and way of life.
                         </p>
                     </div>
