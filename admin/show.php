@@ -200,9 +200,9 @@ tr:hover .cut { opacity: 1; }
 		<header>
 			<h1>Information of Guest</h1>
 			<address >
-				<p>IDEMBE HOTEL,</p>
-				<p>Kigali,<br>Nyarugenge,<br>RWANDA.</p>
-				<p>(+250) 783 871 782</p>
+				<p>IDEMBE  HERITAGE,</p>
+				<p>Muhanga,<br>RWANDA.</p>
+				<p>+250 783 171 000</p>
 			</address>
 			<span><img alt="" src="../img/dark1.png" height="60" width="150" alt="idembe-logo-light"></span>
 		</header>

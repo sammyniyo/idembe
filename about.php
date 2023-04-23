@@ -62,11 +62,11 @@
                         <div class="col-lg-7 px-5 text-start">
                             <div class="h-100 d-inline-flex align-items-center py-2 me-4">
                                 <i class="fa fa-envelope text-primary me-2"></i>
-                                <p class="mb-0">info@idembe.com</p>
+                                <p class="mb-0">booking@idembe.com</p>
                             </div>
                             <div class="h-100 d-inline-flex align-items-center py-2">
                                 <i class="fa fa-phone-alt text-primary me-2"></i>
-                                <p class="mb-0">+250 783 871 782</p>
+                                <p class="mb-0">+250 783 171 000</p>
                             </div>
                         </div>
                     </div>
@@ -81,6 +81,7 @@
                             <div class="navbar-nav mr-auto py-0">
                                 <a href="index.php" class="nav-item nav-link">Home</a>
                                 <a href="about.php" class="nav-item nav-link active">About</a>
+                                <a href="explore.php" class="nav-item nav-link">Explore</a>
                                 <a href="service.php" class="nav-item nav-link">Services</a>
                                 <a href="acommodation.php" class="nav-item nav-link">Acommodation</a>
                                 <a href="restaurant.php" class="nav-item nav-link">Restaurant</a>
@@ -116,14 +117,11 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-12">
                         <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
-                        <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Idembe</span></h1>
-<p>Your home away from home. Our hotel offers a comfortable and luxurious stay with exceptional service that will make your trip an unforgettable experience.</p>
-<p>At Idembe, we strive to provide our guests with the highest level of comfort and satisfaction. Our rooms are elegantly designed with modern amenities that cater to your every need. Whether you are here for business or pleasure, our team is committed to ensuring your stay is as enjoyable as possible.</p>
-<p>Our location is also perfect for exploring the city. We are situated in the heart of the bustling downtown area, close to the best restaurants, shopping, and entertainment. From our hotel, you can easily access major tourist attractions, making it an ideal choice for travelers.</p>
-<p>When it comes to dining, we offer a range of delicious options at our in-house restaurant, serving both local and international cuisine. Our bar is also the perfect place to unwind after a long day, with a selection of cocktails and a relaxing ambiance.</p>
-<p>At Idembe, we understand the importance of relaxation and wellness, which is why we have a range of facilities that cater to your needs. Our fitness center is fully equipped with the latest equipment, and our spa offers a range of treatments to help you unwind.</p>
-<p>Our team of dedicated professionals is always on hand to assist you in any way possible, ensuring that your stay with us is both enjoyable and memorable. We pride ourselves on our exceptional service, and we are committed to making your stay at Idembe a truly unique experience.</p>
-<p>Thank you for choosing Idembe for your stay, and we look forward to welcoming you soon.</p>
+                        <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Idembe,</span></h1>
+<p><b>Idembe</b> is a Kinyarwanda word that means a place or situation in which someone expects to find great happiness. Therefore, we expect you to have all of that at Idembe Heritage. 
+We are in Muhanga Cyakabiri which refers to the middle of Rwanda from the east, northwest, and south, a favorite stopover place for tourists heading to Nyungwe Park, Kibuye, King Palace in Nyanza, and Ntarama genocide memorial.
+Idembe Heritage showcases the traditional lifestyle of Rwandan culture and heritage and introduces you to different experiences from traditional food, drink preparations, traditional dance entertainment, village walk, fetching water, farming with the locals, and playing traditional games. 
+</p>
                     </div>
                 </div>
             </div>
@@ -138,13 +136,13 @@
                     <div class="col-md-6 col-lg-4">
                         <img src="img/logo.png" height="60" width="150" alt="idembe-logo-light">
                         <p class="text-white mb-0">
-                            Hotel And Lodges
+                            Hotel And Lodging
                         </p>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>KK 57 St, Kigali, RWANDA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+250 783 871 782</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+250 783 171 000</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>booking@idembe.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>

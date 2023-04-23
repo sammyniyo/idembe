@@ -179,7 +179,7 @@ if (isset($_POST['sub'])) {
                             </div>
                             <div class="h-100 d-inline-flex align-items-center py-2">
                                 <i class="fa fa-phone-alt text-primary me-2"></i>
-                                <p class="mb-0">+250 783 871 782</p>
+                                <p class="mb-0">+250 783 171 000</p>
                             </div>
                         </div>
                         <div class="col-lg-5 px-5 text-end">
@@ -204,6 +204,7 @@ if (isset($_POST['sub'])) {
                             <div class="navbar-nav mr-auto py-0">
                                 <a href="index.php" class="nav-item nav-link">Home</a>
                                 <a href="about.php" class="nav-item nav-link">About</a>
+                                <a href="explore.php" class="nav-item nav-link">Explore</a>
                                 <a href="service.php" class="nav-item nav-link">Services</a>
                                 <a href="acommodation.php" class="nav-item nav-link active">Acommodation</a>
                                 <a href="restaurant.php" class="nav-item nav-link">Restaurant</a>
@@ -371,13 +372,13 @@ if (isset($_POST['sub'])) {
                     <div class="col-md-6 col-lg-4">
                         <img src="img/logo.png" height="60" width="150" alt="idembe-logo-light">
                         <p class="text-white mb-0">
-                            Hotel And Lodges
+                            Hotel And Lodging
                         </p>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>KK 57 St, Kigali, RWANDA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+250 783 871 782</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+250 783 171 000</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>booking@idembe.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
