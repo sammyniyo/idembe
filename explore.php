@@ -196,8 +196,6 @@
                             sounds, and flavors of a new destination and to gain a deeper appreciation for the local culture and way of life.
                         </p>
                     </div>
-                    git config --global user.email "you@example.com"
-                    git config --global user.name "Your Name"
                 </div>
             </div>
         </div>
